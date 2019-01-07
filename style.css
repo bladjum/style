@@ -819,3 +819,42 @@
                 width: 100%!important;
                 height: 100%!important;
                 }
+                #newsletter_messages{
+                display:none;
+                align-items: center;
+                justify-content: center;
+                }
+                .newsletter_messages_success{
+                width: 100%;
+                height: 50px;
+                margin-bottom: 40px;
+                background: #00a261;
+                position:relative;
+                border-radius:5px;
+                }
+                .newsletter_messages_error{
+                background: red;
+                width: 100%;
+                height: 50px;
+                margin-bottom: 40px;
+                position:relative;
+                border-radius:5px;
+                }
+                #newsletter_messages > span{
+                position: absolute;
+                right: 10px;
+                top: 16px;
+                border-radius: 10px;
+                background-color: white;
+                width: 18px;
+                height: 18px;
+                text-align: center;
+                font-size: 13px;
+                cursor: pointer;
+                }
+                #newsletter_messages > h3{
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                color:white;
+                margin: 0;
+                }
