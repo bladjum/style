@@ -664,7 +664,7 @@
           padding: 20px;
           margin: 0 auto;
           border-left: 1px solid #ddd;
-          border-radius: 5px;
+          
           }
           .nav-tabs>li>span{
           pointer-events:none;
@@ -672,7 +672,6 @@
           .nav-tabs>li.active{
           width: 90px;
           background-color: #00a261;
-          border-radius: 5px;
           color: white;
     margin: 0;
           }              
